@@ -1,0 +1,25 @@
+<%- include("header.ejs") %>
+
+    <div class="wrapper">
+        <div class="font-medium text-3xl pl-3 pb-5 mb-3 bottom">Journals</div>
+        <% arr.forEach(element => { %>
+            <div class="card max-sm:w-full w-4/6 bg-base-100 shadow-xl mb-8">
+                <div class="card-body">                   
+                    <h2 class="card-title">
+                        <%= element.title %>
+                    </h2>
+                    <p class="font-normal text-base author pb-3"><%= element.author %></p>
+                    <p class="posts"><%= element.main.substring(0, 120) + "..." %></p>
+                    <div class="card-actions justify-end">
+                        <a href=<%=element.title.replaceAll(' ', '').toLowerCase()%>>
+                            <button class="btn btn-primary text-white">Read more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <%    }); %>
+
+
+    </div>
+
+    <%- include("footer.ejs") %>

@@ -1,0 +1,53 @@
+.wrapper {
+  padding: 7rem 3rem 5rem 3rem;
+}
+
+.bottom {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.empty {
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #560DF8 !important;
+
+}
+
+.btn-primary:hover {
+  background-color: #4909D9;
+}
+
+.posts {
+  font-family: 'Source Serif 4', serif;
+  font-size: 18px;
+  letter-spacing: -0.003em;
+  line-height: 28px;
+}
+
+.aboutTitle {
+  font-family: 'Source Serif 4', serif;
+  min-width: 288px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.author {
+  color: rgb(107, 107, 107);
+}
+
+.more {
+  color: rgb(107, 107, 107);
+}
+
+.three {
+  margin-left: 9px
+}
